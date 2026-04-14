@@ -59,8 +59,8 @@ export default function Hero() {
 
             {/* Resume Download Button */}
             <motion.a
-              href="/Vignesh_Kumar_Resume.pdf" // Points to public folder
-              download="Vignesh_Kumar_Resume.pdf" // Triggers the download
+              href="/MERN FULL STACK DEVELOPER RESUME.pdf" // Points to public folder
+              download="MERN FULL STACK DEVELOPER RESUME.pdf" // Triggers the download
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="px-8 py-4 bg-white/5 backdrop-blur-lg border border-white/20 text-white rounded-2xl font-bold text-lg hover:bg-white/10 transition-all duration-300 flex items-center gap-2"
