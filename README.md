@@ -16,7 +16,8 @@ Vignesh Portfolio | MERN Stack Developer
 ​Clone the repository: git clone https://github.com/VigneshKumar2711/VigneshKumar-Portfolio-2.0.git
 ​Install dependencies: npm install
 ​Start the server: npm run dev
-​About Me
+​About Me   
+
 ​I am a Full-Stack Developer specialized in the MERN stack. I focus on turning complex problems into elegant, functional, and scalable web solutions. Beyond coding, I have a strong analytical foundation built through competitive exam preparation (SSC/RRB), which helps me write efficient and logical code.
 ​Contact Me
 ​Email: dvigneshkumar60@gmail.com
