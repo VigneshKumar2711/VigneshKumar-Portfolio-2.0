@@ -21,7 +21,7 @@ export default function Footer() {
           {/* 1. Brand & Logo Section */}
           <div className="flex flex-col items-center md:items-start">
             <div className="flex items-center gap-3 mb-4">
-              <img src="/Logo.jpg" alt="Logo" className="w-8 h-8 object-contain" />
+              <img src="/public/Logo.jpg" alt="Logo" className="w-8 h-8 object-contain" />
               <h2 className="text-xl font-bold bg-gradient-to-r from-indigo-500 to-pink-500 bg-clip-text text-transparent">
                 Vignesh Portfolio
               </h2>
