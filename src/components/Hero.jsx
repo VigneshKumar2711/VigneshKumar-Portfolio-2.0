@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { FaDownload } from "react-icons/fa"; // Optional: if you want a download icon
+import { FaDownload } from "react-icons/fa"; 
+import {coding-illustration} from "/coding-illustration.jpg";
 
 export default function Hero() {
   const handleScroll = () => {
@@ -82,7 +83,7 @@ export default function Hero() {
             className="w-full max-w-[500px]"
           >
             <img 
-              src="/coding-illustration.jpg" 
+              src={coding-illustration} 
               alt="Coding Illustration"
               className="w-full h-auto drop-shadow-2xl"
             />
