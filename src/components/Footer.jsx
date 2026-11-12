@@ -101,10 +101,12 @@ export default function Footer() {
                 <FaLinkedin size={20} />
               </a>
 
-             <a
-  href="mailto:dvigneshkumar60@gmail.com"
+          <a
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=dvigneshkumar60@gmail.com"
+  target="_blank"
+  rel="noopener noreferrer"
   aria-label="Send email to Vignesh Kumar"
-  title="dvigneshkumar60@gmail.com"
+  title="Send email to Vignesh Kumar"
   className="p-3 rounded-full bg-white dark:bg-white/5 border border-gray-200 dark:border-white/10 hover:bg-indigo-600 transition-all text-gray-700 dark:text-gray-300 hover:text-white"
 >
   <FaEnvelope size={20} />
