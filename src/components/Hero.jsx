@@ -20,7 +20,6 @@ export default function Hero() {
 
       {/* Main Container */}
       <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center z-10">
-
         {/* Left Side: Text Content */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
@@ -49,7 +48,6 @@ export default function Hero() {
             transition={{ delay: 0.8 }}
             className="mt-10 flex flex-wrap gap-4 justify-center lg:justify-start"
           >
-            {/* View Projects Button */}
             <motion.button
               onClick={handleScroll}
               whileHover={{ scale: 1.05 }}
@@ -59,10 +57,9 @@ export default function Hero() {
               View Projects 🚀
             </motion.button>
 
-            {/* Resume Download Button */}
             <motion.a
-href={`${import.meta.env.BASE_URL}Vignesh_Kumar_MERN_Co_Mentor_Resume.pdf`}
-download="Vignesh_Kumar_MERN_Co_Mentor_Resume.pdf"
+              href={`${import.meta.env.BASE_URL}D.%20Vignesh%20Kumar%20-%20EMC-Co-Mentor-Fresher-Resume.pdf`}
+              download="D. Vignesh Kumar - EMC-Co-Mentor-Fresher-Resume.pdf"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="px-8 py-4 bg-white dark:bg-white/5 backdrop-blur-lg border border-gray-300 dark:border-white/20 text-gray-900 dark:text-white rounded-2xl font-bold text-lg hover:bg-gray-100 dark:hover:bg-white/10 transition-all duration-300 flex items-center gap-2 shadow-sm"
