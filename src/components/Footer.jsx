@@ -81,6 +81,7 @@ export default function Footer() {
             </h3>
 
             <div className="flex gap-4">
+              {/* GitHub */}
               <a
                 href="https://github.com/VigneshKumar2711"
                 target="_blank"
@@ -91,6 +92,7 @@ export default function Footer() {
                 <FaGithub size={20} />
               </a>
 
+              {/* LinkedIn */}
               <a
                 href="https://www.linkedin.com/in/dvignesh-kumar-81342/"
                 target="_blank"
@@ -101,16 +103,17 @@ export default function Footer() {
                 <FaLinkedin size={20} />
               </a>
 
-          <a
-  href="https://mail.google.com/mail/?view=cm&fs=1&to=dvigneshkumar60@gmail.com"
-  target="_blank"
-  rel="noopener noreferrer"
-  aria-label="Send email to Vignesh Kumar"
-  title="Send email to Vignesh Kumar"
-  className="p-3 rounded-full bg-white dark:bg-white/5 border border-gray-200 dark:border-white/10 hover:bg-indigo-600 transition-all text-gray-700 dark:text-gray-300 hover:text-white"
->
-  <FaEnvelope size={20} />
-</a>
+              {/* Gmail */}
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=dvigneshkumar60@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Send email to Vignesh Kumar"
+                title="Send email to Vignesh Kumar"
+                className="p-3 rounded-full bg-white dark:bg-white/5 border border-gray-200 dark:border-white/10 hover:bg-indigo-600 transition-all text-gray-700 dark:text-gray-300 hover:text-white"
+              >
+                <FaEnvelope size={20} />
+              </a>
             </div>
           </div>
         </div>
